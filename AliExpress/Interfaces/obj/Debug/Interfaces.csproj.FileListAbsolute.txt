@@ -1,0 +1,9 @@
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\bin\Debug\Entidades.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\bin\Debug\Entidades.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete

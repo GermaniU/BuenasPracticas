@@ -1,0 +1,11 @@
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Business.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Business.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Interfaces.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Interfaces.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\obj\Debug\Business.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\obj\Debug\Business.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Entidades.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Business\bin\Debug\Entidades.pdb

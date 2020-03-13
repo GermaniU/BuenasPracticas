@@ -1,0 +1,9 @@
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\obj\Debug\IoC.csprojAssemblyReference.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\obj\Debug\IoC.csproj.CoreCompileInputs.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\bin\Debug\IoC.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\bin\Debug\IoC.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\bin\Debug\StructureMap.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\bin\Debug\StructureMap.xml
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\obj\Debug\IoC.csproj.CopyComplete
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\obj\Debug\IoC.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\IoC\obj\Debug\IoC.pdb

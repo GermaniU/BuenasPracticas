@@ -1,0 +1,11 @@
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\viewModel.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\viewModel.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\obj\Debug\viewModel.csproj.CoreCompileInputs.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\obj\Debug\viewModel.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\obj\Debug\viewModel.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\obj\Debug\viewModel.csprojAssemblyReference.cache
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\Entidades.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\Interfaces.dll
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\Entidades.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\bin\Debug\Interfaces.pdb
+C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\viewModel\obj\Debug\viewModel.csproj.CopyComplete
