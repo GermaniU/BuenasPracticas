@@ -1,6 +1,0 @@
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\bin\Debug\Entidades.dll
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\bin\Debug\Entidades.pdb
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\obj\Debug\Entidades.dll
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\obj\Debug\Entidades.pdb
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

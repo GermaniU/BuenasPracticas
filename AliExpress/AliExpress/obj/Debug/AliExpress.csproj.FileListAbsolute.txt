@@ -1,7 +1,0 @@
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\obj\Debug\AliExpress.csprojAssemblyReference.cache
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\obj\Debug\AliExpress.csproj.CoreCompileInputs.cache
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\bin\Debug\AliExpress.exe.config
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\bin\Debug\AliExpress.exe
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\bin\Debug\AliExpress.pdb
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\obj\Debug\AliExpress.exe
-C:\Users\germani.uicab\Documents\GitHub\BuenasPracticas\AliExpress\AliExpress\obj\Debug\AliExpress.pdb
