@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Business.Fabricas;
+using Business.ObtenedoresInformacion;
+using Interfaces.Business.ObtenedoresInformacion;
+using Interfaces.Fabricas;
 using StructureMap;
 
 namespace IoC
@@ -11,7 +10,17 @@ namespace IoC
     {
         public DI_Envios()
         {
-           // For<>().Use<>();
+            For<IObtenedorVariacionVelocidad>().Use<ObtenerVariacionVelocidadInvierno>().Named("ObtenedorVelocidadInvierno");
+            For<IObtenedorVariacionVelocidad>().Use<ObtenerVariacionVelocidadVerano>().Named("ObtenedorVelocidadVerano");
+            For<IObtenedorVariacionVelocidad>().Use<ObtenerVariacionVelocidadOtonio>().Named("ObtenedorVelocidadOtonio");
+            For<IObtenedorTiempoDescansoPorDia>().Use<ObtenedorTiempoDescansoPorDiaInvierno>().Named("ObtenedorTiempoDescansoInvierno");
+            For<IObtenedorTiempoDescansoPorDia>().Use<ObtenedorTiempoDescansoPorDiaVerano>().Named("ObtenedorTiempoDescansoVerano");
+            For<IObtenedorTiempoDescansoPorDia>().Use<ObtenedorTiempoDescansoPorDiaOtonio>().Named("ObtenedorTiempoDescansoOtonio");
+            For<IObtenedorTiempoDescansoPorDia>().Use<ObtenedorTiempoDescansoPorDiaPrimavera>().Named("ObtenedorTiempoDescansoPrimavera");
+            For<ICalculaRetrasoPorDiaFactory>().Use<CalculaRetrasoPorDiaFactory>();
+            For<ICalculaVariacionVelocidadFactory>().Use<CalculaCalculaVariacionVelocidadFactory>();
+
         }
+
     }
 }

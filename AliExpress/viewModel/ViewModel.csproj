@@ -43,7 +43,8 @@
   <ItemGroup>
     <Compile Include="GeneradorMensajeBuilder.cs" />
     <Compile Include="GeneradorMensajesEstatusTiempo.cs" />
-    <Compile Include="ObtenedorMensajePedido.cs" />
+    <Compile Include="GeneradorMensajePaquete.cs" />
+    <Compile Include="ProcesarPedido.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

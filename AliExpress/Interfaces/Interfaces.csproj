@@ -41,19 +41,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICalculaCotizacionPaqueteria.cs" />
-    <Compile Include="ICalculaCostoAdiccionalPorEscala.cs" />
-    <Compile Include="ICalculaTiempoAdiccionalPorEscala.cs" />
-    <Compile Include="ICalculaCostoAdiccionalTemporada.cs" />
-    <Compile Include="ICalculaRetrasoPorDia.cs" />
-    <Compile Include="ICalculaVariacionVelocidad.cs" />
-    <Compile Include="IConfiguradorMensajeBuilder.cs" />
-    <Compile Include="IGeneradorMensajeBuilder.cs" />
-    <Compile Include="IGeneradorMensajesEstatusTiempo.cs" />
-    <Compile Include="IObtenedorFechaActual.cs" />
-    <Compile Include="IObtenedorFechaEntrega.cs" />
-    <Compile Include="IObtenerCostoEnvio.cs" />
-    <Compile Include="IObtenerFormatoTiempoEntrega.cs" />
+    <Compile Include="Business\CalculaFechaEntrega\ICalcularFechaEntregaMedioTransporte.cs" />
+    <Compile Include="Business\CalculaFechaEntrega\ICalculaRetrasoPorDia.cs" />
+    <Compile Include="Business\CalculaFechaEntrega\ICalcularTiempoEntrega.cs" />
+    <Compile Include="Business\CalculaFechaEntrega\ICalculaVariacionVelocidad.cs" />
+    <Compile Include="Business\CalculoCostoEnvio\ICalculaCostoAdiccionalPorTemporada.cs" />
+    <Compile Include="Business\CalculoCostoEnvio\ICalculaCostoAdiccionalEnvio.cs" />
+    <Compile Include="Business\CalculosCostosAdiccionales\ICalculaCostoAdiccionalPorEscala.cs" />
+    <Compile Include="Business\CalculosCostosAdiccionales\ICalculaUtilidadPaqueteria.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorTiempoDescansoPorDia.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorTiempoReparto.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorVariacionVelocidad.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\ITiempoReparto.cs" />
+    <Compile Include="Fabricas\ICalculaRetrasoPorDiaFactory.cs" />
+    <Compile Include="Fabricas\ICalculaVariacionVelocidadFactory.cs" />
+    <Compile Include="ViewModel\IConfiguradorMensajeBuilder.cs" />
+    <Compile Include="ViewModel\IGeneradorMensajeBuilder.cs" />
+    <Compile Include="ViewModel\IGeneradorMensajesEstatusTiempo.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorCostoPorKilometro.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorEmpresaPaqueteria.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorEstacionAnio.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorFechaActual.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorFechaEntrega.cs" />
+    <Compile Include="ViewModel\IGeneradorMensajePaquete.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorTipoTransporte.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorUtilidadPaqueteria.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\ICalculaCostoEnvio.cs" />
+    <Compile Include="ViewModel\IObtenerFormatoTiempoEntrega.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,5 +76,6 @@
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

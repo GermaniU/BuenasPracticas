@@ -62,7 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessUTest\ObtenedorMensajePedidoTest.cs" />
+    <Compile Include="BusinessUTest\ObtenedoresInformacion\ObtenedorCostoEnvioTest.cs" />
+    <Compile Include="BusinessUTest\CalculosCostoEnvio\CalculaCostoEnvioMaritimoTest.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaFechaEntregaMaritimoTest.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaFechaEntregaTerrestreTest.cs" />
+    <Compile Include="ViewModelUTest\ProcesarPedidoUTest.cs" />
+    <Compile Include="ViewModelUTest\ObtenedorMensajePedidoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

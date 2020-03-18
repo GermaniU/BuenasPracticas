@@ -1,6 +1,5 @@
-﻿using System;
-using Entidades;
-using Interfaces;
+﻿using Interfaces;
+using System;
 
 namespace viewModel
 {

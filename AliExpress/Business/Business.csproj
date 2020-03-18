@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StructureMap, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.7.1\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,14 +44,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculosCostosAdiccionales\CalculaCostoAdiccionalPorEscala.cs" />
+    <Compile Include="CalculosCostoEnvio\CalculaCostoAdiccionalAdiccionalEnvioAereo.cs" />
+    <Compile Include="CalculosCostoEnvio\CalculaCostoAdiccionalEnvioMaritimo.cs" />
+    <Compile Include="CalculosCostoEnvio\CalculaCostoAdiccionalEnvioTerrestre.cs" />
+    <Compile Include="CalculosCostosAdiccionales\CalculaCostoAdiccionalPorTemporadaPrimavera.cs" />
+    <Compile Include="CalculosCostosAdiccionales\CalculaCostoAdiccionalPorTemporadaVerano.cs" />
+    <Compile Include="CalculosCostosAdiccionales\CalculaCostoAdiccionalPorTemporadaOtonio.cs" />
+    <Compile Include="CalculosCostosAdiccionales\CalculaCostoAdiccionalPorTemporadaInvierno.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaFechaEntregaMaritimo.cs" />
+    <Compile Include="CalculosCostosAdiccionales\CalcularUtilidadPaqueteria.cs" />
+    <Compile Include="CalculosCostoEnvio\CalculaCostoEnvio.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaFechaEntregaTerrestre.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaRetrasoPorDia.cs" />
+    <Compile Include="CalculosFechaEntrega\CalcularTiempoEntrega.cs" />
+    <Compile Include="CalculosFechaEntrega\CalculaVariacionVelocidad.cs" />
+    <Compile Include="Fabricas\CalculaCalculaVariacionVelocidadFactory.cs" />
+    <Compile Include="Fabricas\CalculaRetrasoPorDiaFactory.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroAereo.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroMaritimo.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroTerrestre.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorEmpresaPaqueteria.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorEstacionesAnio.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorTiempoDescansoPorDiaInvierno.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorTiempoDescansoPorDiaOtonio.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorTiempoDescansoPorDiaPrimavera.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorTiempoDescansoPorDiaVerano.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorUtilidadDHL.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorUtilidadFedex.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenerVariacionVelocidadOtonio.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenerVariacionVelocidadVerano.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenerVariacionVelocidadInvierno.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\AereoDHL.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\GeneralEstafeta.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\MaritimoDHL.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\MaritimoFedex.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\ObtenedorTiempoReparto.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\TerrestreDHL.cs" />
+    <Compile Include="ObtenedoresInformacion\Patrones\Bridge\TerrestreFedex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ObtenedoresInformacion\ObtenedorUtilidadEstafeta.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{1f05f9e9-2b05-43f3-a200-3d7d69018b01}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{07D4EB2C-9DCC-4173-9B4B-BB35930C136C}</Project>
       <Name>Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
