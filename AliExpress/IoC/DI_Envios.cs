@@ -1,5 +1,7 @@
-﻿using Business.Fabricas;
+﻿using Business;
+using Business.Fabricas;
 using Business.ObtenedoresInformacion;
+using Interfaces;
 using Interfaces.Business.ObtenedoresInformacion;
 using Interfaces.Fabricas;
 using StructureMap;
@@ -19,6 +21,9 @@ namespace IoC
             For<IObtenedorTiempoDescansoPorDia>().Use<ObtenedorTiempoDescansoPorDiaPrimavera>().Named("ObtenedorTiempoDescansoPrimavera");
             For<ICalculaRetrasoPorDiaFactory>().Use<CalculaRetrasoPorDiaFactory>();
             For<ICalculaVariacionVelocidadFactory>().Use<CalculaCalculaVariacionVelocidadFactory>();
+            For<IObtenedorUtilidadPaqueteria>().Use<ObtenedorUtilidadDHL>().Named("ObtenerUtilidadDHL");
+            For<IObtenedorUtilidadPaqueteria>().Use<ObtenedorUtilidadEstafeta>().Named("ObtenerUtilidadEstafeta");
+            For<IObtenedorUtilidadPaqueteria>().Use<ObtenedorUtilidadFedex>().Named("ObtenerUtilidadFedex");
 
         }
 

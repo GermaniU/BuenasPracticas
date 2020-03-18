@@ -54,6 +54,7 @@
     <Compile Include="Business\ObtenedoresInformacion\IObtenedorVariacionVelocidad.cs" />
     <Compile Include="Business\ObtenedoresInformacion\ITiempoReparto.cs" />
     <Compile Include="Fabricas\ICalculaRetrasoPorDiaFactory.cs" />
+    <Compile Include="Fabricas\ICalcularUtilidadPaqueteriaFactory.cs" />
     <Compile Include="Fabricas\ICalculaVariacionVelocidadFactory.cs" />
     <Compile Include="ViewModel\IConfiguradorMensajeBuilder.cs" />
     <Compile Include="ViewModel\IGeneradorMensajeBuilder.cs" />

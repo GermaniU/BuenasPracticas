@@ -18,9 +18,8 @@ namespace Business.Test
             var costoEsperado = 4981.5M;
             var costoTransportacion = 2700M;
 
-            var docObtenedorEmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadDHL = new ObtenedorUtilidadDHL();
-            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria(docObtenedorEmpresaPaqueteria, docObtenedorUtilidadDHL);
+            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria( docObtenedorUtilidadDHL);
             var docCalculaCostoPorTemporadaInvierno = new CalculaCostoAdiccionalPorTemporadaInvierno();
 
 
@@ -43,9 +42,8 @@ namespace Business.Test
             var costoEsperado = 4050M;
             var costoTransportacion = 2700M;
 
-            var docObtenedorEmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadDHL = new ObtenedorUtilidadDHL();
-            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria(docObtenedorEmpresaPaqueteria, docObtenedorUtilidadDHL);
+            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria(docObtenedorUtilidadDHL);
             var docCalculaCostoPorTemporadaPrimavera = new CalculaCostoAdiccionalPorTemporadaPrimavera();
 
             var SUT = new CalculaCostoAdiccionalEnvioMaritimo(docCalculaUtilidadPaqueteria, docCalculaCostoPorTemporadaPrimavera);
@@ -67,9 +65,8 @@ namespace Business.Test
             var costoEsperado = 4502.25M;
             var costoTransportacion = 2700M;
 
-            var docObtenedorEmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadDHL = new ObtenedorUtilidadEstafeta();
-            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria(docObtenedorEmpresaPaqueteria, docObtenedorUtilidadDHL);
+            var docCalculaUtilidadPaqueteria = new CalcularUtilidadPaqueteria(docObtenedorUtilidadDHL);
             var docCalculaCostoPorTemporadaOtonio = new CalculaCostoAdiccionalPorTemporadaOtonio();
 
             var SUT = new CalculaCostoAdiccionalEnvioMaritimo(docCalculaUtilidadPaqueteria, docCalculaCostoPorTemporadaOtonio);

@@ -5,6 +5,6 @@ namespace Interfaces
 {
     public interface IObtenedorUtilidadPaqueteria
     {
-        decimal ObtenerUtilidadEmpresa(EnumEmpresasPaqueteria paqueteria, DateTime fechaPedido);
+        decimal ObtenerUtilidadEmpresa(DateTime fechaPedido);
     }
 }

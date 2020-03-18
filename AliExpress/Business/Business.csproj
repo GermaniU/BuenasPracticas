@@ -61,6 +61,7 @@
     <Compile Include="CalculosFechaEntrega\CalculaVariacionVelocidad.cs" />
     <Compile Include="Fabricas\CalculaCalculaVariacionVelocidadFactory.cs" />
     <Compile Include="Fabricas\CalculaRetrasoPorDiaFactory.cs" />
+    <Compile Include="Fabricas\CalcularUtilidadPaqueteriaFactory.cs" />
     <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroAereo.cs" />
     <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroMaritimo.cs" />
     <Compile Include="ObtenedoresInformacion\ObtenedorCostoPorKilometroTerrestre.cs" />

@@ -6,7 +6,7 @@ namespace Business
 {
     public class ObtenedorUtilidadEstafeta : IObtenedorUtilidadPaqueteria
     {
-        public decimal ObtenerUtilidadEmpresa(EnumEmpresasPaqueteria paqueteria, DateTime fechaPedido)
+        public decimal ObtenerUtilidadEmpresa(DateTime fechaPedido)
         {
             decimal UtilidadEmpresa;
             var diaPedido = fechaPedido.Day;

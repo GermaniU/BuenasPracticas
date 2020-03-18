@@ -23,9 +23,8 @@ namespace Business.Test
 
             var docObtenerCostoPorKilometroTerrestre = new ObtenedorCostoPorKilometroTerrestre();
             var docCalculaAdiccionalPorEscala = new CalculaCostoAdiccionalPorEscala();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadEstafeta();
-            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalAdiccionalEnvioAereo(docCalculaAdiccionalPorEscala, calculaUtilidadFedex);
 
             var SUT = new CalculaCostoEnvio(docObtenerCostoPorKilometroTerrestre, docCalculaCostoAereo);
@@ -50,9 +49,8 @@ namespace Business.Test
 
             var docObtenerCostoPorKilometroAereo = new ObtenedorCostoPorKilometroAereo();
             var docCalculaAdiccionalPorEscala = new CalculaCostoAdiccionalPorEscala();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadDHL();
-            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalAdiccionalEnvioAereo(docCalculaAdiccionalPorEscala, calculaUtilidadFedex);
 
             var SUT = new CalculaCostoEnvio(docObtenerCostoPorKilometroAereo, docCalculaCostoAereo);
@@ -76,9 +74,8 @@ namespace Business.Test
 
             var docObtenerCostoPorKilometroAereo = new ObtenedorCostoPorKilometroAereo();
             var docCalculaAdiccionalPorEscala = new CalculaCostoAdiccionalPorEscala();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadFedex();
-            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalAdiccionalEnvioAereo(docCalculaAdiccionalPorEscala, calculaUtilidadFedex);
 
             var SUT = new CalculaCostoEnvio(docObtenerCostoPorKilometroAereo, docCalculaCostoAereo);
@@ -103,9 +100,8 @@ namespace Business.Test
 
             var docObtenerCostoPorKilometroAereo = new ObtenedorCostoPorKilometroAereo();
             var docCalculaAdiccionalPorEscala = new CalculaCostoAdiccionalPorEscala();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadDHL();
-            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidadFedex = new CalcularUtilidadPaqueteria( docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalAdiccionalEnvioAereo(docCalculaAdiccionalPorEscala, calculaUtilidadFedex);
 
             var SUT = new CalculaCostoEnvio(docObtenerCostoPorKilometroAereo, docCalculaCostoAereo);
@@ -130,9 +126,8 @@ namespace Business.Test
 
             var docObtenerCostoPorKilometroAereo = new ObtenedorCostoPorKilometroAereo();
             var docCalculaAdiccionalPorEscala =  new CalculaCostoAdiccionalPorEscala();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadFedex();
-            var calculaUtilidad = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidad = new CalcularUtilidadPaqueteria(docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalAdiccionalEnvioAereo(docCalculaAdiccionalPorEscala, calculaUtilidad);
 
             var SUT = new CalculaCostoEnvio(docObtenerCostoPorKilometroAereo, docCalculaCostoAereo);
@@ -156,9 +151,8 @@ namespace Business.Test
 
             var obtenedorCostoPorKilometroMaritimo = new ObtenedorCostoPorKilometroMaritimo();
             var docCalculaAdiccionalPorTemporada = new CalculaCostoAdiccionalPorTemporadaInvierno();
-            var docObtenedorEmmpresaPaqueteria = new ObtenedorEmpresaPaqueteria();
             var docObtenedorUtilidadPaqueteria = new ObtenedorUtilidadDHL();
-            var calculaUtilidadDHL = new CalcularUtilidadPaqueteria(docObtenedorEmmpresaPaqueteria, docObtenedorUtilidadPaqueteria);
+            var calculaUtilidadDHL = new CalcularUtilidadPaqueteria(docObtenedorUtilidadPaqueteria);
             var docCalculaCostoAereo = new CalculaCostoAdiccionalEnvioMaritimo(calculaUtilidadDHL, docCalculaAdiccionalPorTemporada);
 
             var SUT = new CalculaCostoEnvio(obtenedorCostoPorKilometroMaritimo, docCalculaCostoAereo);

@@ -6,7 +6,7 @@ namespace Business
 {
     public class ObtenedorUtilidadFedex : IObtenedorUtilidadPaqueteria
     {
-        public decimal ObtenerUtilidadEmpresa(EnumEmpresasPaqueteria paqueteria, DateTime fechaPedido)
+        public decimal ObtenerUtilidadEmpresa(DateTime fechaPedido)
         {
             decimal UtilidadEmpresa = 0.0M;
             int mesPedido = fechaPedido.Month;
