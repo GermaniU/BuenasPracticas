@@ -49,6 +49,7 @@
     <Compile Include="Business\CalculoCostoEnvio\ICalculaCostoAdiccionalEnvio.cs" />
     <Compile Include="Business\CalculosCostosAdiccionales\ICalculaCostoAdiccionalPorEscala.cs" />
     <Compile Include="Business\CalculosCostosAdiccionales\ICalculaUtilidadPaqueteria.cs" />
+    <Compile Include="Business\ObtenedoresInformacion\IObtenedorFormatoFecha.cs" />
     <Compile Include="Business\ObtenedoresInformacion\IObtenedorTiempoDescansoPorDia.cs" />
     <Compile Include="Business\ObtenedoresInformacion\IObtenedorTiempoReparto.cs" />
     <Compile Include="Business\ObtenedoresInformacion\IObtenedorVariacionVelocidad.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Fabricas\ICalculaRetrasoPorDiaFactory.cs" />
     <Compile Include="Fabricas\ICalcularUtilidadPaqueteriaFactory.cs" />
     <Compile Include="Fabricas\ICalculaVariacionVelocidadFactory.cs" />
+    <Compile Include="Fabricas\IObtenedorFormatoFactory.cs" />
     <Compile Include="ViewModel\IConfiguradorMensajeBuilder.cs" />
     <Compile Include="ViewModel\IGeneradorMensajeBuilder.cs" />
     <Compile Include="ViewModel\IGeneradorMensajesEstatusTiempo.cs" />
@@ -70,11 +72,16 @@
     <Compile Include="Business\ObtenedoresInformacion\ICalculaCostoEnvio.cs" />
     <Compile Include="ViewModel\IObtenerFormatoTiempoEntrega.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\IProcesarPedido.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{1f05f9e9-2b05-43f3-a200-3d7d69018b01}</Project>
       <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Genericos\Genericos.csproj">
+      <Project>{F638DEB9-717E-499F-A9E5-643888156B9D}</Project>
+      <Name>Genericos</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

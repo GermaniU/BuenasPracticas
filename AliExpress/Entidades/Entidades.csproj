@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO\FechasPedidoDTO.cs" />
     <Compile Include="Enum\EnumEmpresasPaqueteria.cs" />
     <Compile Include="Enum\EnumEstacionesAnio.cs" />
     <Compile Include="Enum\EnumMeses.cs" />

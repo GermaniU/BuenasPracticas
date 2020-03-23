@@ -2,10 +2,11 @@
 using Interfaces;
 using System;
 using System.Collections.Generic;
+using Interfaces.ViewModel;
 
 namespace viewModel
 {
-    public class ProcesarPedido
+    public class ProcesarPedido: IProcesarPedido
     {
         private readonly IObtenedorFechaActual _obtenerFechaActual;
         private readonly IObtenedorFechaEntrega _obtenerFechaEntrega;
@@ -48,8 +49,7 @@ namespace viewModel
 
         private DateTime ObtenerFechaEntrega(PedidoDTO pedido)
         {
-            return _obtenerFechaEntrega.dtFechaEntrega(pedido.Distancia, pedido.MedioTransporte, pedido.FechaPedido,
-                pedido.Paqueteria);
+            return _obtenerFechaEntrega.dtFechaEntrega(pedido.Distancia, pedido.FechaPedido);
         }
 
     }

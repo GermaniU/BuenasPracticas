@@ -59,6 +59,10 @@
       <Project>{07D4EB2C-9DCC-4173-9B4B-BB35930C136C}</Project>
       <Name>Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\viewModel\ViewModel.csproj">
+      <Project>{7A7392F9-3D82-407B-A990-325B29D57BB4}</Project>
+      <Name>ViewModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

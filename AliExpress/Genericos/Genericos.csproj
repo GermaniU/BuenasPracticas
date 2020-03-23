@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A2284CE-990D-4B48-A8E7-D07C59E0C897}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>AliExpress</RootNamespace>
-    <AssemblyName>AliExpress</AssemblyName>
+    <ProjectGuid>{F638DEB9-717E-499F-A9E5-643888156B9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Genericos</RootNamespace>
+    <AssemblyName>Genericos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,10 +33,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="StructureMap, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StructureMap.4.7.1\lib\net45\StructureMap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,25 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Clases\CadenaResponsabilidadBase.cs" />
+    <Compile Include="Clases\CadenaResponsabilidadConParametroBase.cs" />
+    <Compile Include="Interfaces\ICadenaResponsabilidad.cs" />
+    <Compile Include="Interfaces\ICadenaResponsabilidadConParametro.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{1F05F9E9-2B05-43F3-A200-3D7D69018B01}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
-      <Project>{07D4EB2C-9DCC-4173-9B4B-BB35930C136C}</Project>
-      <Name>Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IoC\IoC.csproj">
-      <Project>{D837B9D1-3559-4223-914F-18502E66A538}</Project>
-      <Name>IoC</Name>
-    </ProjectReference>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
